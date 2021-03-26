@@ -1,0 +1,11 @@
+[user]
+	email = blinunleius@gmail.com
+	name = Evgenii Petrov
+[alias]
+	st = status
+	ds = diff --staged
+	lg = log --oneline
+	cm = commit -m
+	cam = commit -a -m
+[credential "https://github.com"]
+	helper = !gh auth git-credential
